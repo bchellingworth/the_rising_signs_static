@@ -95,9 +95,7 @@
 		.pillar {
 			margin-bottom: 25px;
 			padding: 25px;
-			height: 100%;
 			.row {
-				background: red;
 				height: 100%;
 			}
 
@@ -147,7 +145,7 @@
 	}
 
 	.slick-center {
-		.collaborator-slide {
+		&.collaborator-slide {
 			.content-2 {
 				opacity: 1;
 			}

@@ -1,5 +1,5 @@
-@import 'slick';
-@import 'slick-theme';
+@import 'node_modules/slick-carousel/slick/slick.scss';
+@import 'node_modules/slick-carousel/slick/slick-theme.scss';
 .slick-prev, .slick-next {
 	display: none!important;
 	@include media-breakpoint-up(md){
