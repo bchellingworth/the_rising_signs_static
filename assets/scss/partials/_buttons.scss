@@ -1,0 +1,65 @@
+.btn {
+	@extend .btn;
+	font-size: 1.6rem;
+	background-image: linear-gradient(to right, #fff 50%, transparent 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 25vmax;
+	padding: 0.45rem 3.5rem;
+	transition: all 250ms linear;
+	&.fill {
+		background: #fff !important;
+		color: $primary!important;
+	}
+	&:hover {
+		background-position: left bottom;
+		color: $primary !important;
+	}
+
+	&:hover, &:focus, &:focus-within, &:visited {
+		color: unset;
+	}
+
+	&.success {
+		background-image: linear-gradient(to right, $success 50%, transparent 50%);
+		border: 1px solid $success;
+		&.fill {
+			background: $success !important;
+			color: #fff!important;
+		}
+		&:hover {
+			color: #fff !important;
+		}
+	}
+
+	&.info {
+		background-image: linear-gradient(to right, $info 50%, transparent 50%);
+		border: 1px solid $info;
+		&.fill {
+			background: $info !important;
+			color: #fff!important;
+		}
+		&:hover {
+			color: #fff !important;
+		}
+	}
+
+	&.warning {
+		background-image: linear-gradient(to right, $warning 50%, transparent 50%);
+		border: 1px solid $warning;
+
+		&.fill {
+			background: $warning !important;
+			color: #fff!important;
+		}
+
+		&:hover {
+			color: #fff !important;
+		}
+	}
+
+}
+

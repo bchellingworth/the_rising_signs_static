@@ -1,0 +1,55 @@
+.article-card {
+	@extend .d-flex;
+	@extend .align-items-end;
+
+	h2 {
+		@extend .text-title;
+	}
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+
+	.article-card-row {
+		@extend .d-flex;
+		@extend .flex-column;
+		@extend .justify-content-between;
+		width: 100%;
+		height: 100%;
+		padding: 2rem 1rem;
+
+		.text {
+			flex-grow: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@include media-breakpoint-up(lg) {
+				display: block;
+			}
+		}
+	}
+
+	img {
+		width: 50px;
+	}
+
+	&.large {
+		@include media-breakpoint-up(lg) {
+			height: 600px;
+			.article-card-row {
+				background: rgba(0, 0, 0, 0.5);
+				height: 50%;
+
+			}
+		}
+	}
+
+	&.last {
+		padding-bottom: 25px;
+		@include media-breakpoint-up(lg) {
+			padding-bottom: 0;
+		}
+	}
+}

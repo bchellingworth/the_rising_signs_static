@@ -1,0 +1,158 @@
+#home {
+	#hero {
+		.hero-container {
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			height: calc(100vh - 56px);
+			text-align: center;
+
+			h1 {
+				@extend .text-title;
+			}
+
+			img {
+				max-width: 400px;
+			}
+
+			@include media-breakpoint-up(lg) {
+				flex-direction: row-reverse;
+				text-align: left;
+				h1 {
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	#pillars {
+		@extend .panel;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@include media-breakpoint-up(lg) {
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+
+		h1 {
+			padding-bottom: 2rem;
+		}
+
+		p {
+			padding-bottom: 5rem;
+		}
+
+		.pillar {
+			margin-bottom: 25px;
+
+			h1 {
+				padding-top: 2rem;
+			}
+
+			img {
+				width: 100%;
+				max-width: 200px;
+			}
+		}
+	}
+
+	#signup {
+		background: $secondary;
+		border-bottom: 1px solid #2f6a71;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		text-align: center;
+
+		h1 {
+			padding-bottom: 2rem;
+		}
+
+		p {
+			padding-bottom: 5rem;
+		}
+
+		input, .btn {
+			width: 200px;
+		}
+	}
+
+	#collaborators {
+		padding-top: 150px;
+		padding-bottom: 150px;
+
+		h1 {
+			padding-bottom: 2rem;
+		}
+
+		p {
+			padding-bottom: 5rem;
+		}
+	}
+
+	#responsible {
+		.pillar {
+			margin-bottom: 25px;
+			padding: 25px;
+			height: 100%;
+			.row {
+				background: red;
+				height: 100%;
+			}
+
+			img {
+				width: 80%;
+				max-width: 200px;
+			}
+		}
+	}
+
+	.collaborator-slide {
+		transform: scale(0.9);
+
+		.content-1 {
+			.image {
+				@extend .d-flex;
+				@extend .align-items-end;
+				margin: 0 auto;
+				width: 300px;
+				height: 400px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: top center;
+
+				.info {
+					padding: 5px;
+					background: rgba(0, 0, 0, 0.5);
+					text-align: center;
+
+					p {
+						padding-bottom: 0 !important;
+					}
+				}
+			}
+		}
+
+		.content-2 {
+			@extend .text-center;
+			@extend .py-4;
+			width: 300px;
+			margin: 0 auto;
+			opacity: 0;
+			overflow: hidden;
+			background: $secondary;
+			transition: all 300ms linear;
+		}
+	}
+
+	.slick-center {
+		.collaborator-slide {
+			.content-2 {
+				opacity: 1;
+			}
+
+			transform: scale(1);
+		}
+	}
+}

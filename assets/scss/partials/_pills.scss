@@ -1,0 +1,46 @@
+.pill {
+	@extend .pill;
+	@extend .text-title;
+	font-family: unset;
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 100;
+	border-radius: 25vmax;
+	padding: 0.3rem 2.8rem;
+	transition: all 250ms linear;
+
+	&.fill {
+		background: #fff !important;
+		color: $primary !important;
+	}
+
+	&.success {
+		border: 1px solid $success;
+
+		&.fill {
+			background: $success !important;
+			color: #fff !important;
+		}
+	}
+
+	&.info {
+		border: 1px solid $info;
+
+		&.fill {
+			background: $info !important;
+			color: #fff !important;
+		}
+	}
+
+	&.warning {
+		border: 1px solid $warning;
+
+		&.fill {
+			background: $warning !important;
+			color: #fff !important;
+		}
+	}
+
+}
+

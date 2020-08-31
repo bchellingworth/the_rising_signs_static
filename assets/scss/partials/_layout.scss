@@ -1,0 +1,14 @@
+html, body {
+	background: $primary;
+	* {
+		outline: none!important;
+	}
+}
+img {
+	width: 100%;
+	max-width: 100%;
+}
+.container-lg {
+	@extend .container;
+	max-width: 1400px!important;
+}

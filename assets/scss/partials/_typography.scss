@@ -1,0 +1,61 @@
+html {
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: #fff;
+	font-weight: 100;
+
+	h1 {
+		font-size: 3rem;
+		font-weight: 100;
+	}
+
+	h2 {
+		font-size: 2.6rem;
+		font-weight: 100;
+	}
+
+	h3 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+
+	p, a, button {
+		font-size: 1.4rem;
+		font-weight: 100;
+	}
+
+	@include media-breakpoint-up(lg) {
+		h1 {
+			font-size: 3rem;
+		}
+		h2 {
+			font-size: 2.6rem;
+		}
+		h3 {
+			font-size: 2rem;
+		}
+		p, a, button {
+			font-size: 1.4rem;
+		}
+	}
+}
+
+a {
+	color: #fff;
+
+	&:hover, &:focus, &:focus-within, &:visited {
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.text-title {
+	@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+	font-family: 'Saira Stencil One', cursive;
+}
