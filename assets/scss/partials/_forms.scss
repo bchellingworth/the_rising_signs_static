@@ -15,3 +15,21 @@ input {
 		}
 	}
 }
+
+textarea {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 3vmax;
+	padding: 0.45rem 2.8rem;
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+	&::placeholder {
+		color: #fff;
+		text-align: center;
+		@include media-breakpoint-up(lg){
+			text-align: left;
+		}
+	}
+}
