@@ -5212,7 +5212,7 @@ button.bg-light-grey:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .article-card, .article-card .article-card-row, header nav a, #home .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
+.d-flex, .article-card, .article-card .article-card-row, header nav a, #home .collaborator-slide .content-1 .image, #collaborators .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
   display: flex !important; }
 
 .d-inline-flex {
@@ -5406,7 +5406,7 @@ button.bg-light-grey:focus {
 .align-items-start {
   align-items: flex-start !important; }
 
-.align-items-end, .article-card, #home .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
+.align-items-end, .article-card, #home .collaborator-slide .content-1 .image, #collaborators .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
   align-items: flex-end !important; }
 
 .align-items-center, header .logo, header nav a {
@@ -6112,6 +6112,7 @@ header {
 .pt-4,
 .py-4,
 #home .collaborator-slide .content-2,
+#collaborators .collaborator-slide .content-2,
 #about .collaborator-slide .content-2,
 #contact .collaborator-slide .content-2 {
   padding-top: 1.5rem !important; }
@@ -6123,6 +6124,7 @@ header {
 .pb-4,
 .py-4,
 #home .collaborator-slide .content-2,
+#collaborators .collaborator-slide .content-2,
 #about .collaborator-slide .content-2,
 #contact .collaborator-slide .content-2 {
   padding-bottom: 1.5rem !important; }
@@ -7314,7 +7316,7 @@ header {
 .text-right {
   text-align: right !important; }
 
-.text-center, #home .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
+.text-center, #home .collaborator-slide .content-2, #collaborators .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -7575,7 +7577,7 @@ a {
     text-decoration: none;
     color: #fff; }
 
-.text-title, .pill, .article-card h2, #home #hero .hero-container h1, #about #hero .hero-container h1, #contact #hero .hero-container h1 {
+.text-title, .pill, .article-card h2, #home #hero .hero-container h1, #collaborators #hero .hero-container h1, #about #hero .hero-container h1, #contact #hero .hero-container h1 {
   font-family: 'Saira Stencil One', cursive; }
 
 html, body {
@@ -7714,13 +7716,13 @@ textarea {
       background: #f4bd5d !important;
       color: #fff !important; }
 
-.panel, #home #pillars, #about #pillars, #contact #pillars {
+.panel, #home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
   background: #18575F;
   position: relative;
   top: -25px;
   border-radius: 25px 25px 0 0; }
   @media (min-width: 992px) {
-    .panel, #home #pillars, #about #pillars, #contact #pillars {
+    .panel, #home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
       border-radius: unset;
       position: relative;
       top: 0; } }
@@ -8006,87 +8008,87 @@ header nav a {
   max-width: 400px;
   height: 100vh; }
 
-#home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+#home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: calc(100vh - 56px);
   text-align: center; }
-  #home #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
+  #home #hero .hero-container img, #collaborators #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
     max-width: 400px; }
   @media (min-width: 992px) {
-    #home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+    #home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
       flex-direction: row-reverse;
       text-align: left; }
-      #home #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
+      #home #hero .hero-container h1 span, #collaborators #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
         display: block; } }
 
-#home #pillars, #about #pillars, #contact #pillars {
+#home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
   padding-top: 50px;
   padding-bottom: 50px; }
   @media (min-width: 992px) {
-    #home #pillars, #about #pillars, #contact #pillars {
+    #home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
       padding-top: 100px;
       padding-bottom: 100px; } }
-  #home #pillars h1, #about #pillars h1, #contact #pillars h1 {
+  #home #pillars h1, #collaborators #pillars h1, #about #pillars h1, #contact #pillars h1 {
     padding-bottom: 2rem; }
-  #home #pillars p, #about #pillars p, #contact #pillars p {
+  #home #pillars p, #collaborators #pillars p, #about #pillars p, #contact #pillars p {
     padding-bottom: 5rem; }
-  #home #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
+  #home #pillars .pillar, #collaborators #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
     margin-bottom: 25px; }
-    #home #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
+    #home #pillars .pillar h1, #collaborators #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
       padding-top: 2rem; }
-    #home #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
+    #home #pillars .pillar img, #collaborators #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
       width: 100%;
       max-width: 200px; }
 
-#home #signup, #about #signup, #contact #signup {
+#home #signup, #collaborators #signup, #about #signup, #contact #signup {
   background: #17535b;
   border-bottom: 1px solid #2f6a71;
   padding-top: 150px;
   padding-bottom: 150px;
   text-align: center; }
-  #home #signup h1, #about #signup h1, #contact #signup h1 {
+  #home #signup h1, #collaborators #signup h1, #about #signup h1, #contact #signup h1 {
     padding-bottom: 2rem; }
-  #home #signup p, #about #signup p, #contact #signup p {
+  #home #signup p, #collaborators #signup p, #about #signup p, #contact #signup p {
     padding-bottom: 5rem; }
-  #home #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #about #signup .btn, #contact #signup .btn {
+  #home #signup input, #collaborators #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #collaborators #signup .btn, #about #signup .btn, #contact #signup .btn {
     width: 200px; }
 
-#home #collaborators, #about #collaborators, #contact #collaborators {
+#home #collaborators, #collaborators #collaborators, #about #collaborators, #contact #collaborators {
   padding-top: 150px;
   padding-bottom: 150px; }
-  #home #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
+  #home #collaborators h1, #collaborators #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
     padding-bottom: 2rem; }
-  #home #collaborators p, #about #collaborators p, #contact #collaborators p {
+  #home #collaborators p, #collaborators #collaborators p, #about #collaborators p, #contact #collaborators p {
     padding-bottom: 5rem; }
 
-#home #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
+#home #responsible .pillar, #collaborators #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
   margin-bottom: 25px;
   padding: 25px; }
-  #home #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
+  #home #responsible .pillar .row, #collaborators #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #collaborators #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
     height: 100%; }
-  #home #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
+  #home #responsible .pillar img, #collaborators #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
     width: 80%;
     max-width: 200px; }
 
-#home .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
+#home .collaborator-slide, #collaborators .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
   -ms-transform: scale(0.9);
   transform: scale(0.9); }
-  #home .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
+  #home .collaborator-slide .content-1 .image, #collaborators .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
     margin: 0 auto;
     width: 300px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; }
-    #home .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
+    #home .collaborator-slide .content-1 .image .info, #collaborators .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
       padding: 5px;
       background: rgba(0, 0, 0, 0.5);
       text-align: center; }
-      #home .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
+      #home .collaborator-slide .content-1 .image .info p, #collaborators .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
         padding-bottom: 0 !important; }
-  #home .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
+  #home .collaborator-slide .content-2, #collaborators .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
     width: 300px;
     margin: 0 auto;
     opacity: 0;
@@ -8094,93 +8096,288 @@ header nav a {
     background: #17535b;
     transition: all 300ms linear; }
 
-#home .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
+#home .slick-center.collaborator-slide, #collaborators .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
   -ms-transform: scale(1);
   transform: scale(1); }
-  #home .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
+  #home .slick-center.collaborator-slide .content-2, #collaborators .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
     opacity: 1; }
 
-#home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+#collaborators #collaborators-hero {
+  background-image: url("../../images/gazing_openly.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#collaborators #collaborator_image {
+  border-radius: 25px 25px 0 0; }
+
+#collaborators #work-with-us .col-12 {
+  padding-right: 0px; }
+
+#collaborators #work-with-us .wwu-row {
+  background-image: url("../../images/gazing_openly.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #collaborators #work-with-us .wwu-row .col-12 {
+    margin: 20px 0; }
+
+#collaborators #work-with-us .row, #collaborators #work-with-us header {
+  margin: 20px 0; }
+
+#collaborators #responsible {
+  background-color: #005A60;
+  padding-top: 2rem; }
+
+#collaborators .rounded_container {
+  border-radius: 25px 25px 0 0;
+  position: relative; }
+  @media (min-width: 992px) {
+    #collaborators .rounded_container {
+      border-radius: unset; } }
+
+#collaborators #workshop {
+  background-image: url("../../images/gazing_openly.jpg");
+  background-size: cover;
+  order: 2;
+  width: 100%; }
+  @media (min-width: 992px) {
+    #collaborators #workshop {
+      order: 1; }
+      #collaborators #workshop .shop_detail {
+        position: absolute; } }
+  #collaborators #workshop .shop_detail {
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    @media (min-width: 992px) {
+      #collaborators #workshop .shop_detail {
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: left; }
+        #collaborators #workshop .shop_detail .schedule {
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between; } }
+
+#collaborators #row_ritual_workshop {
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 992px) {
+    #collaborators #row_ritual_workshop {
+      flex-wrap: unset; } }
+
+#collaborators #pillars .rounded_image_container {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-image: url(../../images/joelle.jpg);
+  background-size: cover;
+  margin: 1rem; }
+
+#collaborators #ritual_tools_section {
+  order: 1;
+  padding-top: 5rem;
+  background-color: #ffffff;
+  width: 100%; }
+  #collaborators #ritual_tools_section .nav-item a {
+    color: #005A60; }
+  #collaborators #ritual_tools_section .nav-item .active {
+    font-weight: bold; }
+  #collaborators #ritual_tools_section .shop_detail {
+    position: absolute;
+    background-color: #000000;
+    border-radius: 25px 25px 0 0;
+    bottom: 0;
+    opacity: 50%;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  @media (min-width: 992px) {
+    #collaborators #ritual_tools_section {
+      padding-top: unset;
+      order: 2; } }
+
+#collaborators .product-slide {
+  background-image: url("../../images/gazing_openly.jpg");
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  max-width: 480px;
+  margin: 2rem;
+  padding: 2rem 3rem 2rem 2rem; }
+  #collaborators .product-slide .slide-content {
+    padding: 1rem; }
+  #collaborators .product-slide .product-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+  #collaborators .product-slide .text-title, #collaborators .product-slide .pill, #collaborators .product-slide .article-card h2, .article-card #collaborators .product-slide h2, #home #hero .hero-container #collaborators .product-slide h1, #collaborators .product-slide #hero .hero-container h1, #collaborators #hero .hero-container .product-slide h1, #about #hero .hero-container #collaborators .product-slide h1, #contact #hero .hero-container #collaborators .product-slide h1, #collaborators .product-slide h1, #collaborators .product-slide h3, #collaborators .product-slide p {
+    color: white; }
+  #collaborators .product-slide img {
+    display: none; }
+  @media (min-width: 992px) {
+    #collaborators .product-slide {
+      padding: 1.5rem;
+      border-radius: 25px;
+      background-image: unset; }
+      #collaborators .product-slide .text-title, #collaborators .product-slide .pill, #collaborators .product-slide .article-card h2, .article-card #collaborators .product-slide h2, #home #hero .hero-container #collaborators .product-slide h1, #collaborators .product-slide #hero .hero-container h1, #collaborators #hero .hero-container .product-slide h1, #about #hero .hero-container #collaborators .product-slide h1, #contact #hero .hero-container #collaborators .product-slide h1, #collaborators .product-slide h1, #collaborators .product-slide h3, #collaborators .product-slide p {
+        color: #005A60; }
+      #collaborators .product-slide img {
+        display: block; } }
+
+#collaborators .slider-container {
+  max-width: 540px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+#collaborators .header_text {
+  padding-top: 25px;
+  padding-bottom: 50px; }
+  @media (min-width: 992px) {
+    #collaborators .header_text {
+      padding-bottom: 25px; } }
+
+#collaborators .footer_wraper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#footer {
+  background: #17535b;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  #footer .nav {
+    flex-direction: column; }
+  #footer .horizontal_line {
+    background-color: white;
+    margin-top: 100px; }
+  #footer .footer_large {
+    display: none; }
+  #footer .footer_mobile {
+    display: flex;
+    justify-content: center; }
+  #footer #logo_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px; }
+  @media (min-width: 576px) {
+    #footer {
+      display: flex;
+      justify-content: center; } }
+  @media (min-width: 992px) {
+    #footer {
+      width: 100%; }
+      #footer #logo_large {
+        display: block; }
+      #footer .footer_large {
+        display: flex; }
+      #footer #logo_mobile, #footer .footer_mobile {
+        display: none; } }
+
+#home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: calc(100vh - 56px);
   text-align: center; }
-  #home #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
+  #home #hero .hero-container img, #collaborators #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
     max-width: 400px; }
   @media (min-width: 992px) {
-    #home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+    #home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
       flex-direction: row-reverse;
       text-align: left; }
-      #home #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
+      #home #hero .hero-container h1 span, #collaborators #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
         display: block; } }
 
-#home #pillars, #about #pillars, #contact #pillars {
+#home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
   padding-top: 50px;
   padding-bottom: 50px; }
   @media (min-width: 992px) {
-    #home #pillars, #about #pillars, #contact #pillars {
+    #home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
       padding-top: 100px;
       padding-bottom: 100px; } }
-  #home #pillars h1, #about #pillars h1, #contact #pillars h1 {
+  #home #pillars h1, #collaborators #pillars h1, #about #pillars h1, #contact #pillars h1 {
     padding-bottom: 2rem; }
-  #home #pillars p, #about #pillars p, #contact #pillars p {
+  #home #pillars p, #collaborators #pillars p, #about #pillars p, #contact #pillars p {
     padding-bottom: 5rem; }
-  #home #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
+  #home #pillars .pillar, #collaborators #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
     margin-bottom: 25px; }
-    #home #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
+    #home #pillars .pillar h1, #collaborators #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
       padding-top: 2rem; }
-    #home #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
+    #home #pillars .pillar img, #collaborators #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
       width: 100%;
       max-width: 200px; }
 
-#home #signup, #about #signup, #contact #signup {
+#home #signup, #collaborators #signup, #about #signup, #contact #signup {
   background: #17535b;
   border-bottom: 1px solid #2f6a71;
   padding-top: 150px;
   padding-bottom: 150px;
   text-align: center; }
-  #home #signup h1, #about #signup h1, #contact #signup h1 {
+  #home #signup h1, #collaborators #signup h1, #about #signup h1, #contact #signup h1 {
     padding-bottom: 2rem; }
-  #home #signup p, #about #signup p, #contact #signup p {
+  #home #signup p, #collaborators #signup p, #about #signup p, #contact #signup p {
     padding-bottom: 5rem; }
-  #home #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #about #signup .btn, #contact #signup .btn {
+  #home #signup input, #collaborators #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #collaborators #signup .btn, #about #signup .btn, #contact #signup .btn {
     width: 200px; }
 
-#home #collaborators, #about #collaborators, #contact #collaborators {
+#home #collaborators, #collaborators #collaborators, #about #collaborators, #contact #collaborators {
   padding-top: 150px;
   padding-bottom: 150px; }
-  #home #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
+  #home #collaborators h1, #collaborators #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
     padding-bottom: 2rem; }
-  #home #collaborators p, #about #collaborators p, #contact #collaborators p {
+  #home #collaborators p, #collaborators #collaborators p, #about #collaborators p, #contact #collaborators p {
     padding-bottom: 5rem; }
 
-#home #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
+#home #responsible .pillar, #collaborators #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
   margin-bottom: 25px;
   padding: 25px; }
-  #home #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
+  #home #responsible .pillar .row, #collaborators #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #collaborators #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
     height: 100%; }
-  #home #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
+  #home #responsible .pillar img, #collaborators #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
     width: 80%;
     max-width: 200px; }
 
-#home .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
+#home .collaborator-slide, #collaborators .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
   -ms-transform: scale(0.9);
   transform: scale(0.9); }
-  #home .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
+  #home .collaborator-slide .content-1 .image, #collaborators .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
     margin: 0 auto;
     width: 300px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; }
-    #home .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
+    #home .collaborator-slide .content-1 .image .info, #collaborators .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
       padding: 5px;
       background: rgba(0, 0, 0, 0.5);
       text-align: center; }
-      #home .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
+      #home .collaborator-slide .content-1 .image .info p, #collaborators .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
         padding-bottom: 0 !important; }
-  #home .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
+  #home .collaborator-slide .content-2, #collaborators .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
     width: 300px;
     margin: 0 auto;
     opacity: 0;
@@ -8188,10 +8385,10 @@ header nav a {
     background: #17535b;
     transition: all 300ms linear; }
 
-#home .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
+#home .slick-center.collaborator-slide, #collaborators .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
   -ms-transform: scale(1);
   transform: scale(1); }
-  #home .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
+  #home .slick-center.collaborator-slide .content-2, #collaborators .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
     opacity: 1; }
 
 #about #about-hero, #contact #about-hero, #contact #contact-hero {
@@ -8262,87 +8459,87 @@ header nav a {
 #about #responsible, #contact #responsible {
   padding: 150px 0; }
 
-#home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+#home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: calc(100vh - 56px);
   text-align: center; }
-  #home #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
+  #home #hero .hero-container img, #collaborators #hero .hero-container img, #about #hero .hero-container img, #contact #hero .hero-container img {
     max-width: 400px; }
   @media (min-width: 992px) {
-    #home #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
+    #home #hero .hero-container, #collaborators #hero .hero-container, #about #hero .hero-container, #contact #hero .hero-container {
       flex-direction: row-reverse;
       text-align: left; }
-      #home #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
+      #home #hero .hero-container h1 span, #collaborators #hero .hero-container h1 span, #about #hero .hero-container h1 span, #contact #hero .hero-container h1 span {
         display: block; } }
 
-#home #pillars, #about #pillars, #contact #pillars {
+#home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
   padding-top: 50px;
   padding-bottom: 50px; }
   @media (min-width: 992px) {
-    #home #pillars, #about #pillars, #contact #pillars {
+    #home #pillars, #collaborators #pillars, #about #pillars, #contact #pillars {
       padding-top: 100px;
       padding-bottom: 100px; } }
-  #home #pillars h1, #about #pillars h1, #contact #pillars h1 {
+  #home #pillars h1, #collaborators #pillars h1, #about #pillars h1, #contact #pillars h1 {
     padding-bottom: 2rem; }
-  #home #pillars p, #about #pillars p, #contact #pillars p {
+  #home #pillars p, #collaborators #pillars p, #about #pillars p, #contact #pillars p {
     padding-bottom: 5rem; }
-  #home #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
+  #home #pillars .pillar, #collaborators #pillars .pillar, #about #pillars .pillar, #contact #pillars .pillar {
     margin-bottom: 25px; }
-    #home #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
+    #home #pillars .pillar h1, #collaborators #pillars .pillar h1, #about #pillars .pillar h1, #contact #pillars .pillar h1 {
       padding-top: 2rem; }
-    #home #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
+    #home #pillars .pillar img, #collaborators #pillars .pillar img, #about #pillars .pillar img, #contact #pillars .pillar img {
       width: 100%;
       max-width: 200px; }
 
-#home #signup, #about #signup, #contact #signup {
+#home #signup, #collaborators #signup, #about #signup, #contact #signup {
   background: #17535b;
   border-bottom: 1px solid #2f6a71;
   padding-top: 150px;
   padding-bottom: 150px;
   text-align: center; }
-  #home #signup h1, #about #signup h1, #contact #signup h1 {
+  #home #signup h1, #collaborators #signup h1, #about #signup h1, #contact #signup h1 {
     padding-bottom: 2rem; }
-  #home #signup p, #about #signup p, #contact #signup p {
+  #home #signup p, #collaborators #signup p, #about #signup p, #contact #signup p {
     padding-bottom: 5rem; }
-  #home #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #about #signup .btn, #contact #signup .btn {
+  #home #signup input, #collaborators #signup input, #about #signup input, #contact #signup input, #home #signup .btn, #collaborators #signup .btn, #about #signup .btn, #contact #signup .btn {
     width: 200px; }
 
-#home #collaborators, #about #collaborators, #contact #collaborators {
+#home #collaborators, #collaborators #collaborators, #about #collaborators, #contact #collaborators {
   padding-top: 150px;
   padding-bottom: 150px; }
-  #home #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
+  #home #collaborators h1, #collaborators #collaborators h1, #about #collaborators h1, #contact #collaborators h1 {
     padding-bottom: 2rem; }
-  #home #collaborators p, #about #collaborators p, #contact #collaborators p {
+  #home #collaborators p, #collaborators #collaborators p, #about #collaborators p, #contact #collaborators p {
     padding-bottom: 5rem; }
 
-#home #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
+#home #responsible .pillar, #collaborators #responsible .pillar, #about #responsible .pillar, #contact #responsible .pillar {
   margin-bottom: 25px;
   padding: 25px; }
-  #home #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
+  #home #responsible .pillar .row, #collaborators #responsible .pillar .row, #about #responsible .pillar .row, #contact #responsible .pillar .row, #home #responsible .pillar header, #collaborators #responsible .pillar header, #about #responsible .pillar header, #contact #responsible .pillar header {
     height: 100%; }
-  #home #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
+  #home #responsible .pillar img, #collaborators #responsible .pillar img, #about #responsible .pillar img, #contact #responsible .pillar img {
     width: 80%;
     max-width: 200px; }
 
-#home .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
+#home .collaborator-slide, #collaborators .collaborator-slide, #about .collaborator-slide, #contact .collaborator-slide {
   -ms-transform: scale(0.9);
   transform: scale(0.9); }
-  #home .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
+  #home .collaborator-slide .content-1 .image, #collaborators .collaborator-slide .content-1 .image, #about .collaborator-slide .content-1 .image, #contact .collaborator-slide .content-1 .image {
     margin: 0 auto;
     width: 300px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; }
-    #home .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
+    #home .collaborator-slide .content-1 .image .info, #collaborators .collaborator-slide .content-1 .image .info, #about .collaborator-slide .content-1 .image .info, #contact .collaborator-slide .content-1 .image .info {
       padding: 5px;
       background: rgba(0, 0, 0, 0.5);
       text-align: center; }
-      #home .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
+      #home .collaborator-slide .content-1 .image .info p, #collaborators .collaborator-slide .content-1 .image .info p, #about .collaborator-slide .content-1 .image .info p, #contact .collaborator-slide .content-1 .image .info p {
         padding-bottom: 0 !important; }
-  #home .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
+  #home .collaborator-slide .content-2, #collaborators .collaborator-slide .content-2, #about .collaborator-slide .content-2, #contact .collaborator-slide .content-2 {
     width: 300px;
     margin: 0 auto;
     opacity: 0;
@@ -8350,10 +8547,10 @@ header nav a {
     background: #17535b;
     transition: all 300ms linear; }
 
-#home .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
+#home .slick-center.collaborator-slide, #collaborators .slick-center.collaborator-slide, #about .slick-center.collaborator-slide, #contact .slick-center.collaborator-slide {
   -ms-transform: scale(1);
   transform: scale(1); }
-  #home .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
+  #home .slick-center.collaborator-slide .content-2, #collaborators .slick-center.collaborator-slide .content-2, #about .slick-center.collaborator-slide .content-2, #contact .slick-center.collaborator-slide .content-2 {
     opacity: 1; }
 
 #contact #collective {
